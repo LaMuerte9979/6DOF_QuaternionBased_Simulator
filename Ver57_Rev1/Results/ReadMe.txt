@@ -1,0 +1,1 @@
+The results saved from the application are saved by default in this folder.

@@ -1,0 +1,128 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2371662972" file="C:\Users\eldan\Desktop\Universidad\4º\PFG - Proyecto Fin de Grado - 21716051\Simulador de Vuelo\Ver57_Rev1\TFG Simulation Console.prj" location="C:\Users\eldan\Desktop\Universidad\4º\PFG - Proyecto Fin de Grado - 21716051\Simulador de Vuelo\Ver57_Rev1" name="TFG Simulation Console" target="target.mlapps" target-name="Package App">
+    <param.appname>TFG Simulation Console</param.appname>
+    <param.authnamewatermark>Ángel Daniel Velázquez Rodríguez</param.authnamewatermark>
+    <param.email>angeldaniel.velazquezrodriguez@gmail.com</param.email>
+    <param.company>Universidad de Cádiz</param.company>
+    <param.icon>${PROJECT_ROOT}\TFG Simulation Console_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\TFG Simulation Console_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\TFG Simulation Console_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\TFG Simulation Console_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>It allows real-time simulation of a 6DOF system for a chosen aircraft, as well as the execution of a predefined mission for the aircraft.</param.summary>
+    <param.description>This application is the result of the application development project proposed by the University of Cadiz as a final degree project by Ángel Daniel Velázquez Rodríguez.</param.description>
+    <param.screenshot>C:\Users\eldan\AppData\Local\Temp\tp30ff457d_272e_4d81_9a11_c4402992a4b4.png</param.screenshot>
+    <param.version>1.57.1</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Simulink</item>
+      <item>Aerospace Blockset</item>
+      <item>Aerospace Toolbox</item>
+      <item>Navigation Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>2</item>
+      <item>70</item>
+      <item>108</item>
+      <item>176</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.8</item>
+      <item>10.1</item>
+      <item>4.3</item>
+      <item>3.3</item>
+      <item>1.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>8b128f28-c357-430d-93d7-aab61b006b1f</param.guid>
+    <unset>
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\main_interface.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\3DModels</file>
+      <file>${PROJECT_ROOT}\Aircraft_Data</file>
+      <file>${PROJECT_ROOT}\InitialState.m</file>
+      <file>${PROJECT_ROOT}\main.m</file>
+      <file>${PROJECT_ROOT}\Misc</file>
+      <file>${PROJECT_ROOT}\Results</file>
+      <file>${PROJECT_ROOT}\SimulatorModel.mdl</file>
+      <file>${PROJECT_ROOT}\Sounds</file>
+      <file>${PROJECT_ROOT}\Trim</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\eldan\Desktop\Universidad\4º\PFG - Proyecto Fin de Grado - 21716051\Simulador de Vuelo" name="Ver57_Rev1" optional="false">C:\Users\eldan\Desktop\Universidad\4º\PFG - Proyecto Fin de Grado - 21716051\Simulador de Vuelo\Ver57_Rev1</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MatLab\R2020a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="polyspacebugfinder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
